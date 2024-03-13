@@ -1,0 +1,11 @@
+
+Proyecto automatizacion E2E:
+Se realizó la estructura del proyecto siguiendo una buena práctica del patronde diseño de POM . Para la automatización de todo el flujo de compra se crearon los test:
+agregar al carrito, visaulizar carrito, completar formulario de compra y finalizar la compra correctamente. Se hizo uso de algunas librerías tales como selenium , pytest,etc, 
+los cuales están detallados en el RAEDME.md. Estas librerías son necesariaspara poder realizar y ejecutar los test. Además mediantes el uso del html-report se 
+pudo generar un pequeño reporte con los resultados de los test. 
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Proyecto automatizacion APIS:

@@ -27,7 +27,6 @@ Se detalla los paso de instalacion de algunas librería y la ejecucion de los te
 
 ```
   pip install -U pytest
-
 ```
 - Verificar si está instalado mediante el comando pip
 
@@ -39,7 +38,6 @@ Se detalla los paso de instalacion de algunas librería y la ejecucion de los te
 
 ```
   pip install selenium
-
 ```
 - Verificar si está instalado mediante el comando pip
 
@@ -61,7 +59,7 @@ cd  Automatizacion-E2E/tests
 ```
 - Ejecutar los test y generar el reporte en html:
 ```
-pytest test_purchase.py --html=../resultss/results.html
+pytest test_purchase.py --html=../results/results.html
 ```
 - Ir a la carpet results y abrir el reporte "results.html" en el navegador para ver más información de los tests.
 

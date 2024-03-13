@@ -86,7 +86,3 @@ class PurchasePg(unittest.TestCase):
         message_success_purchase = self.driver.find_element(By.XPATH,"//h2[contains(text(),'Thank you for your purchase')]")
         self.assertEqual(message_success_purchase.text, "Thank you for your purchase!", 'Error, no se completó la compra')
 
-    def screenshot_file(self):
-        self.hora_global= time.strftime("%H%M%S")
-        self.title = "Evidencia"
-        self.driver.get_screenshot_as_file(f"../reports/{self.title}-{self.hora_global}.png")
