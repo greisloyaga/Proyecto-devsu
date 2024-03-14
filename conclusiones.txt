@@ -1,11 +1,13 @@
 
 Proyecto automatizacion E2E:
-Se realizó la estructura del proyecto siguiendo una buena práctica del patronde diseño de POM . Para la automatización de todo el flujo de compra se crearon los test:
-agregar al carrito, visaulizar carrito, completar formulario de compra y finalizar la compra correctamente. Se hizo uso de algunas librerías tales como selenium , pytest,etc, 
-los cuales están detallados en el RAEDME.md. Estas librerías son necesariaspara poder realizar y ejecutar los test. Además mediantes el uso del html-report se 
-pudo generar un pequeño reporte con los resultados de los test. 
+Se realizó la estructura del proyecto siguiendo una buena práctica del patron de diseño de POM. Para la automatización de todo el flujo de compra se crearon los test:
+agregar al carrito, visualizar carrito, completar formulario de compra y finalizar la compra correctamente. Se hizo uso de algunas librerías tales como selenium , pytest,etc, 
+los cuales están detallados en el README.md. Estas librerías son necesarias para poder realizar y ejecutar los test. Además mediantes el uso del html-report se 
+pudo generar un pequeño reporte con los resultados de los tests. 
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Proyecto automatizacion APIS:
+Se realizó la estructura del proyecto mediante el uso de Karate y Maven y se instalaron algunas dependencias para poder correr los features. Para la automatización de la APIS
+se crearon 5 test con solicitud POST, GET, PUT y DELETE. Finalmente se adjunta un reporte en html que es generado por Karate Report para tener más detalles de cada caso de prueba.
