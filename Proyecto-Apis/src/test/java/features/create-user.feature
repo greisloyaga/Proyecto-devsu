@@ -19,6 +19,6 @@ Feature: Create new user
     And request requestPayload
     When method post
     Then status 200
-    #verifica si el responde.code es igual a 200
     And match $.code == 200
+    And match $.message == requestPayload.id.toString()
 
